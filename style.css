@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #ffcb05;
+    color: #3b4cca;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #3b4cca;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.nav-links a:hover {
+    color: #ffcb05;
+    background-color: #3b4cca;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.project-window {
+    padding: 10px 20px;
+    background-color: #3b4cca;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.project-window:hover {
+    background-color: #2a2a2a;
+}
+
+#pokemon-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pokemon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.pokemon-container:hover {
+    transform: scale(1.05);
+}
+
+.pokemon-container img {
+    width: 100px;
+    height: 100px;
+}
+
+#load-more {
+    padding: 10px 20px;
+    background-color: #5d8aa8;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+#pokemon-details {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    max-width: 600px;
+    width: 100%;
+    display: none;
+    text-align: center;
+}
+
+#pokemon-details img {
+    width: 300px;
+    height: 300px;
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background-color: #ffcb05;
+    color: #3b4cca;
+    padding: 10px 20px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
